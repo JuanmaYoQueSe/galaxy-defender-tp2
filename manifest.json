@@ -1,0 +1,59 @@
+{
+  "id": "/",
+  "name": "Galaxy Defender TP2 TP3",
+  "short_name": "Galaxy",
+  "description": "Juego arcade PWA con ranking y soporte offline",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "landscape",
+  "theme_color": "#0b1020",
+  "background_color": "#0b1020",
+  "lang": "es-AR",
+  "dir": "ltr",
+  "categories": [
+    "games",
+    "arcade",
+    "entertainment"
+  ],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "general",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/s1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshots/s2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}
