@@ -1,6 +1,6 @@
 
 const WebSocket=require('ws');
-const wss=new WebSocket.Server({port:8080});
+const wss=new WebSocket.Server({"wss://gamehubmanager.azurewebsites.net/ws"});
 let ranking=[{name:'Jugador',score:0}];
 wss.on('connection',ws=>{
  ws.send(JSON.stringify(ranking,null,2));
