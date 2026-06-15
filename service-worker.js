@@ -1,6 +1,6 @@
 
 const CACHE='galaxy-v1';
-const ASSETS=['./','./index.html','./style.css','./app.js','./manifest.json'];
+const ASSETS=['./','./index.html','./style.css','./game.js','./manifest.json'];
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
