@@ -1,0 +1,50 @@
+{
+  "name": "Galaxy Defender",
+  "short_name": "Galaxy",
+  "description": "Juego HTML5 convertido en PWA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "landscape",
+  "lang": "es-AR",
+  "dir": "ltr",
+  "categories": [
+    "games",
+    "arcade"
+  ],
+  "prefer_related_applications": false,
+  "display_override": [
+    "standalone"
+  ],
+  "id": "galaxy-defender-pwa",
+  "iarc_rating_id": "general",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/gameplay1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/gameplay2.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ]
+}
