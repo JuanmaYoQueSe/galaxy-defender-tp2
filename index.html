@@ -9,11 +9,48 @@
 <meta name="theme-color" content="#000000">
 </head>
 <body>
-<h1>Galaxy Defender</h1>
-<canvas id="game" width="800" height="500"></canvas>
-<div id="ranking"></div>
-<script src="game.js"></script>
-</body>
+
+<div id="startScreen">
+    <h1>Galaxy Defender</h1>
+
+    <input id="playerName" placeholder="Nombre del jugador">
+
+    <button id="startBtn">
+        Comenzar
+    </button>
+</div>
+
+<div id="gameUI" style="display:none">
+
+    <div>
+        Jugador:
+        <span id="playerLabel"></span>
+    </div>
+
+    <div>
+        Puntos:
+        <span id="score">0</span>
+    </div>
+
+    <div>
+        Vidas:
+        <span id="lives">3</span>
+    </div>
+
+    <div>
+        Estado:
+        <span id="status">Desconectado</span>
+    </div>
+
+    <div id="gameArea"
+         style="width:800px;height:500px;border:1px solid white;position:relative;">
+    </div>
+
+    <h3>Ranking</h3>
+
+    <ol id="rankingList"></ol>
+
+</div>
 </html>
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
